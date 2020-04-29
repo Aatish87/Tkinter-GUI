@@ -11,7 +11,7 @@ def test_function(entry):
 #api.openweathermap.org/data/2.5/forecast?q={city name}&appid={your api key}
 
 def get_weather(city):
-    api_key = '9d06b93ff194aeaf01eb292522596924'
+    api_key = '9d06b93ff194aeaf01eb292522596924'  #this api is deleted now use ur own api
     url = 'https://api.openweathermap.org/data/2.5/weather'
     parameters = {'appid': api_key, 'q': city, 'units': 'metric'}
     response = requests.get(url, params=parameters)
