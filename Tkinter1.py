@@ -4,9 +4,6 @@ import requests
 HEIGHT = 500
 WIDTH = 800
 
-def test_function(entry):
-    print("This is the entry: ", entry)
-
 #9d06b93ff194aeaf01eb292522596924
 #api.openweathermap.org/data/2.5/forecast?q={city name}&appid={your api key}
 
